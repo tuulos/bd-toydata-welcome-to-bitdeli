@@ -8,6 +8,7 @@ for profile in profiles():
         if event['event'] == 'buy':
             sales[event['product']] += event['price']
 
+print 'yay'
 set_theme('june')
 
 Text(head='Welcome to Bitdeli',
