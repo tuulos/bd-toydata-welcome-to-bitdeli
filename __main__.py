@@ -8,7 +8,7 @@ for profile in profiles():
         if event['event'] == 'buy':
             sales[event['product']] += event['price']
 
-set_theme('sail')
+set_theme('vintage')
 
 Text(head='Welcome to Bitdeli',
      size=(12,2),
