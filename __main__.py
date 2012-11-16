@@ -9,7 +9,7 @@ for profile in profiles():
             sales[event['product']] += event['price']
 
 print 'yay'
-set_theme('casino')
+set_theme('lipstick')
 
 Text(head='Welcome to Bitdeli',
      size=(12,2),
